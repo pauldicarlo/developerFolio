@@ -130,7 +130,7 @@ const educationInfo = {
     },
     {
       schoolName: "SUNY Polytechnic Institute",
-      logo: require("./assets/images/sunyPolyLogo.jpeg"),
+      logo: require("./assets/images/sunyPolyLogo.jpg"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 1990 - May 1992",
       desc: "",
