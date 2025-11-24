@@ -121,7 +121,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Cardinal Stritch University",
-      logo: require("./assets/images/stritchLogo.jpg"),
+      logo: require("./assets/images/stritchLogo.png"),
       subHeader: "Master of Business Administration",
       duration: "September 2010 - May 2005",
       desc: "",
