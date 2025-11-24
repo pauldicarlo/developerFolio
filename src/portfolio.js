@@ -1,4 +1,4 @@
-/* Change this file to get your personal Portfolio */
+H/* Change this file to get your personal Portfolio */
 
 // To change portfolio colors globally go to the  _globalColor.scss file
 
@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Paul DiCarlo",
-  title: "Hello.  I'm Paul DiCarlo",
+  title: "Hi, I'm Paul DiCarlo",
   subTitle: emoji(
     "A software enginner having experience of building solutions using IBM Cloud / Golang / Java / Python."
   ),
@@ -123,7 +123,7 @@ const educationInfo = {
       schoolName: "Cardinal Stritch University",
       logo: require("./assets/images/stritchLogo.png"),
       subHeader: "Master of Business Administration",
-      duration: "September 2010 - May 2005",
+      duration: "September 2001 - May 2005",
       desc: "",
       descBullets: [
       ]
@@ -134,7 +134,7 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 1990 - May 1992",
       desc: "",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      descBullets: []
     }
   ]
 };
@@ -298,55 +298,16 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "DiCarlo & Sons",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "With insatiable curiosity, I try various hobbies and endeavors",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "https://dicarloandsons.blogspot.com",
+      title: "DiCarlo & Sons: Projects and Adventures",
+      description: "From making ukulels to building bikes."
     }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
-
-// Talks Sections
-
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
-
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
-
-// Podcast Section
-
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -364,18 +325,12 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "paul.dicarlo@gmail.com"
 };
 
 // Twitter Section
 
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
-};
-
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
@@ -390,10 +345,7 @@ export {
   bigProjects,
   achievementSection,
   blogSection,
-  talkSection,
-  podcastSection,
   contactInfo,
-  twitterDetails,
   isHireable,
   resumeSection
 };
