@@ -120,22 +120,20 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Cardinal Stritch University",
+      logo: require("./assets/images/stritchLogo.jpg"),
+      subHeader: "Master of Business Administration",
+      duration: "September 2010 - May 2005",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "SUNY Polytechnic Institute",
+      logo: require("./assets/images/sunyPolyLogo.jpeg"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      duration: "September 1990 - May 1992",
+      desc: "",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
